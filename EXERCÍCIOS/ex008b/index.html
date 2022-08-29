@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+    num = int(input('digite um número'))
+    if num % 2 ==0:
+        print(f'O número {num} é PAR)
+    else:
+        print(f'O número {num} é IMPAR')
+    print ('Fim do programa')
+        </code>
+    </pre>
+    <!--A tag <code> deixa o texto em formato de código fazendo com que as letras fiquem mono-espaçadas-->
+
+    <!--A tag <pre> faz com que o texto fique exatamento do jeito que você digitou, ou seja, com todas as quebras de linha e parágrafos, preservando a identação de um código, por exemplo-->
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <!--Para citações é melhor usar a tag <q> do que simplesmente coloca aspas, pois isso atribui sentido (semântica) para o qeu está sendo feito -->
+    <h2>Citações completas</h2>
+    <p>Segundo jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&pg=PA17&dq=HTML&hl=pt-BR&sa=X&ved=0ahUKEwjH5-PevNboAhVNIbkGHcoxCOgQ6AEIOjAC#v=onepage&q=HTML&f=false">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto
+    </blockquote>
+    <!--Essa citação é aquela em um bloco deslocado para a direito e que geralmente são citações maiores ou completas. Além disso, usando essa tag você pode colocar o link de onde você pegou a frase em questão ou um link que referencie o autor-->
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <!--Essa tag serve para especificaar siglas ou termos abreviados no texto e quando a pessoa passar o mouse por cima da sigla irá aparecer o nome completo-->
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!--Essa é um tag praticamente inútil kkkk. Mas ela serve para deixar o texto invertido e se precisar fazer isso um dia, é essa tag que você irá usar-->
+
+
+</body>
+</html>
